@@ -5,6 +5,7 @@ import InformacionCalamaFragment from './fragments/InformacionCalamaFragment'
 function App() {
   //let platoFavorito = "Lasaña"
   const [platoFavorito, setPlatoFavorito] = useState("Lasaña")
+  const [color, setColor] = useState('Perú')
   //const [count, setCount] = useState(0)
   //function handClick(){}
   const handClick = () => {
